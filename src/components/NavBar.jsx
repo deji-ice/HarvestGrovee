@@ -7,13 +7,13 @@ const NavBar = () => {
 
 
     return (
-        <div className="md:border-b fixed w-screen px-4 flex justify-between xl:px-14 py-3 items-center">
+        <div className="z-30 bg-white md:border-b fixed top-0 w-screen px-4 flex justify-between xl:px-14 py-3 items-center">
             <div className="flex gap-16 items-center">
                 <div id="Logo " className="flex items-center">
                     <span className="hidden md:flex px-1"><Logo /></span>
                     <span className=" md:hidden z-40"> <LogoSm /></span>
                 </div>
-                <div className=" hidden lg:flex font-light items-center text-sm text-[#090909] gap-5">
+                <div className=" hidden lg:flex font-light items-center text-sm text-[#090909CC] gap-5">
                     <p>Explore</p>
                     <p>Services</p>
                     <p>Individuals</p>
