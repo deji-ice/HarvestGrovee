@@ -26,6 +26,7 @@ const Provide = () => {
       <div className=" flex gap-5  overflow-x-scroll no-scrollbar lg:overflow-x-hidden">
         <div className="flex gap-4 lg:px-4 lg:py-5 lg:gap-5 ">
         {arrayOfObjects?.map((items) => (
+          
           <div className="bg-[#F4F4F4] gap-4 rounded-2xl lg:rounded-3xl w-[80vw] md:w-[60vw] lg:w-fit flex flex-col p-4" key={items.title}>
             <img className="w-fit rounded-lg lg:rounded-2xl" src={items.image} alt={items.title} />
             <div className="flex flex-col gap-1">
