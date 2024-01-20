@@ -5,7 +5,7 @@ const Provide = () => {
   return (
     <div className="my-20 flex flex-col gap-10 px-5 lg:px-10 lg:overflow-x-hidden">
       <div className="flex gap-4  md:px-4 flex-col md:flex-row md:justify-between lg:items-center">
-        <h2 className="text-3xl md:flex-[2]  lg:text-[38px] leading-[1.30]">
+        <h2 className="text-3xl md:flex-[2] lg:text-[38px] leading-[1.30]">
           We Provide <br />
           Fresh Agro Product
         </h2>
