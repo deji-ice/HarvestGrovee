@@ -78,7 +78,7 @@ const Cultivate = () => {
           />
         </div>
         <div className="relative">
-          <div className="flex items-center absolute top-[-5px] right-0">
+          <div className="flex items-center absolute top-[-5px] xl:top-4 xl:right-4 right-0">
             <button className="px-6 py-2 border-[1px] border-black  text-sm rounded-full">
               Shop Now
             </button>
